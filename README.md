@@ -90,19 +90,32 @@ The display, located at the bottom of the GUI, is used for showing messages to t
 
 <img src="8.PNG" data-canonical-src="8.PNG" width="400" />
 
+## 5. Important features:
+**UML of the project**
+
+<img src="9.png" data-canonical-src="9.png" width="400" />
+
+**Duplicate reservations avoidance**
+
+<img src="10.jpg" data-canonical-src="10.jpg" width="400" />
+
+**Contract expiring**
+
+<img src="11.jpg" data-canonical-src="11.jpg" width="400" />
+
+**Sufficient funds checking**
+
+<img src="12.jpg" data-canonical-src="12.jpg" width="400" />
+
+**Metamask**
+
+<img src="13.jpg" data-canonical-src="13.jpg" width="400" />
+
 ## 4. The presentation
 
-[![Google](https://img.shields.io/badge/Google%20Slides-FBBC04?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAP1BMVEUAAAD%2FvwD1tAD1tQD0tQD0tAD1tAD0tQD%2FtgD0twD0tAD0tQD3twD1tAD1tQD4tAD%2FuwD1tgD1tQD0tAD%2F%2F%2F97fnsdAAAAE3RSTlMAEHvL8O%2FJeA5H7OpD%2FPtED3rKY%2F8p%2FQAAAG5JREFUWMPt17kRgEAQA8EBjv9nyT9WDCLg5AAlBdC2BqAoqxSPVzdtBwD9EJkbJ4B%2BjuwtK2xDCBs79pDWcmhAQ9KARIgzYOBdwPl4BgwYMGDAwL8B%2FwMDXwfk5JGjS84%2BOTzl9NXjOzf%2F053%2FF9bUMa%2FoE83%2BAAAAAElFTkSuQmCC)](https://docs.google.com/presentation/d/e/2PACX-1vQtHHDqQQltagK2XLVUPHEtTO5p0R-gU6MmWScdarflz9z4V8GfYV40vg1sq6Gps4s5nZ_iLFJxV-rl/embed?start=false&loop=false&delayms=3000)
+[![Google](https://img.shields.io/badge/Google%20Slides-FBBC04?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAP1BMVEUAAAD%2FvwD1tAD1tQD0tQD0tAD1tAD0tQD%2FtgD0twD0tAD0tQD3twD1tAD1tQD4tAD%2FuwD1tgD1tQD0tAD%2F%2F%2F97fnsdAAAAE3RSTlMAEHvL8O%2FJeA5H7OpD%2FPtED3rKY%2F8p%2FQAAAG5JREFUWMPt17kRgEAQA8EBjv9nyT9WDCLg5AAlBdC2BqAoqxSPVzdtBwD9EJkbJ4B%2BjuwtK2xDCBs79pDWcmhAQ9KARIgzYOBdwPl4BgwYMGDAwL8B%2FwMDXwfk5JGjS84%2BOTzl9NXjOzf%2F053%2FF9bUMa%2FoE83%2BAAAAAElFTkSuQmCC)](https://docs.google.com/presentation/d/1enIIcNiCpBZiPSAWnFoR0goPvxCWFPsMDDMTXLytNUI/edit?usp=sharing)
 
 ## 5. The video
 
 
-  
-
-## 2. Taller
-
-[![Abrir en Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/langheran/GITMA2022&tutorial=tutorial.md&cloudshell_open_in_editor=taller.ipynb&cloudshell_workspace=.&cloudshell_git_branch=main&ephemeral=true)
-
-Al abrir la ventana del `Cloud Shell` hacer click en `Trust repo` y seguir el tutorial que se abre. 
-
-<img src="https://github.com/langheran/GITMA2022/raw/main/images/trust_repo.png" data-canonical-src="https://github.com/langheran
+ 
