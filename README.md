@@ -99,6 +99,15 @@ The display, located at the bottom of the GUI, is used for showing messages to t
 
 <img src="10.jpg" data-canonical-src="10.jpg" width="400" />
 
+
+	t1_start=datetime.strptime(dateAndLocation[0].replace('. ', '').replace('.', ''), '%d/%m/%Y %I:%M %p')#Start time of ride from contract#
+	t1_end=t1_start+timedelta(minutes=int(basePriceDurationAndSeats[1])) #End time of ride from contract
+	t2_start=rideTime#Start time of ride from settings
+	t2_end=t2_start+timedelta(minutes=int(currentDuration))#End time of ride from settings
+	if((t2_start<t1_start and t2_end>t1_start) or (t2_start>=t1_start and t2_start<t1_end)):
+		overlapping=True
+		pass    
+
 **Contract expiring**
 
 <img src="11.jpg" data-canonical-src="11.jpg" width="400" />
