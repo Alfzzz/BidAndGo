@@ -25,7 +25,6 @@ Install these libraries using `pip install` in the command prompt. In case there
 
 `pip install pyqt5`
 
-You might encounter some issues during the installation of the web3 library, if that's case review this link: https://github.com/ethereum/web3.py/issues/1578
 
 [**DateTime:**](https://pypi.org/project/DateTime/) time management of the system, provides datetime datatype
 
@@ -34,6 +33,8 @@ You might encounter some issues during the installation of the web3 library, if 
 [**Web3:**](https://pypi.org/project/web3/) library for blockchain technology
 
 `pip install web3`
+
+You might encounter some issues during the installation of the web3 library, if that's case review this link: https://github.com/ethereum/web3.py/issues/1578
 
 [**solcx:**](https://pypi.org/project/py-solc-x/) python wrapper and version management tool for the Solidity Compiler
 
