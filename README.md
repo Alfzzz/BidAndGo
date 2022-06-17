@@ -112,10 +112,49 @@ The display, located at the bottom of the GUI, is used for showing messages to t
 
 <img src="11.jpg" data-canonical-src="11.jpg" width="400" />
 
+	function auctionEnd()public {
+        if (block.timestamp < auctionEndTime){
+            revert("Auction has not ended yet");
+        }
+        if (ended){
+            revert("Function auctionEnded has already been called");
+        }
+        ended = true;
+        uint j;
+        for(j=0;j<10;j++){
+           if(highestBid<bids[j]){
+               highestBid = bids[j];
+               highestBidder = bidders[j];
+           }
+       }
+        emit auctionEnded(highestBidder, highestBid);
+        //beneficiary.transfer(highestBid);
+        // send will returns false if it fails and transfer does not do anything, the code will stop there (throw)
+    }
 **Sufficient funds checking**
 
 <img src="12.jpg" data-canonical-src="12.jpg" width="400" />
 
+    function bid (uint _account_balance, address _bidder, uint _amount) public{
+        if (block.timestamp > auctionEndTime){
+            //revert("Auction has already ended");
+        }
+        if (_account_balance< basePrice){
+            //revert("You don't have sufficient funds to carry out the reservation");
+            //emit fundInsufficient(basePrice,_account_balance);
+        }
+        if (_amount <= bids[i]){
+            //revert("There is a higher or equal bid");
+        }
+        if (bids[i] != 0){
+            pendingReturns[bidders[i]] += bids[i];
+            
+        }
+        bidders[i] = _bidder;
+        bids[i] = _amount;
+        i++;
+        emit highestBidIncrease(_bidder, _amount);
+    }
 **Metamask**
 
 <img src="13.jpg" data-canonical-src="13.jpg" width="400" />
