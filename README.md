@@ -40,7 +40,7 @@ You might encounter some issues during the installation of the web3 library, if 
 
 `pip install py-solc-x`
 
-[***Ganache***]:(https://pypi.org/project/py-solc-x/)
+[**Ganache**]: (https://pypi.org/project/py-solc-x/)
 
 <img src="14.JPG" data-canonical-src="14.JPG" />
 
