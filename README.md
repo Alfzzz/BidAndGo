@@ -171,5 +171,5 @@ The display, located at the bottom of the GUI, is used for showing messages to t
 
 ## 5. The video
 
-
+https://youtu.be/1Ie8fk7cnVg
  
