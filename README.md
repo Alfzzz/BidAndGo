@@ -8,7 +8,7 @@
 | Name  | LinkedIn                                                                                                                                                                                    |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |Alfredo Zhu Chen | [https://www.linkedin.com/in/alfredo-zhu-chen/](https://www.linkedin.com/in/alfredo-zhu-chen/) |
-| Juan Pablo Valverde López | [https://www.linkedin.com/in/jpvalverdelopez/](https://www.linkedin.com/in/jpvalverdelopez/](https://www.linkedin.com/in/jpvalverdelopez/](https://www.linkedin.com/in/jpvalverdelopez/)   |
+| Juan Pablo Valverde López | [https://www.linkedin.com/in/jpvalverdelopez/](https://www.linkedin.com/in/jpvalverdelopez)   |
 | Miguel Alejandro Cruz Banda | [https://www.linkedin.com/in/miguel-alejandro-cruz-banda-085675228/](https://www.linkedin.com/in/miguel-alejandro-cruz-banda-085675228/)|
 
 ## 1. Requirements
