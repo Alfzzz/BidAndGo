@@ -43,7 +43,7 @@ You might encounter some issues during the installation of the web3 library, if 
 [**Ganache:**](https://pypi.org/project/py-solc-x/)
 
 
-<img src="14.JPG" data-canonical-src="14.JPG" />
+<img src="img/14.JPG" data-canonical-src="img/14.JPG" />
 
 
 
@@ -53,48 +53,48 @@ You can run the program on either Microsoft Visual Studio, an IDE(Integrated Dev
 
 **Running the program using the command prompt**
 
-<img src="1.PNG" data-canonical-src="1.PNG" />
+<img src="img/cmd.PNG" data-canonical-src="img/cmd.PNG" />
 
 **Running the program using the python IDLE**
 
-<img src="2.PNG" data-canonical-src="2.PNG" width="400" />
+<img src="img/2.PNG" data-canonical-src="img/2.PNG" width="400" />
 
 ## 3. The GUI(Graphical User Interface)
 **Driver Credentials**
 
 In the first part of the GUI, the driver has to type his account address and private key in order to create contracts, make transactions or any blockchain operation. In this part is used the digital wallet to administrate the credentials, so the user don´t have to remember the characters of his account. For the wallet, Metamask is used and its functioning will be explained later. Once the fields are filled, the driver has to login with the button "Driver login!".
 
-<img src="3.PNG" data-canonical-src="3.PNG" width="400" />
+<img src="img/3.PNG" data-canonical-src="img/3.PNG" width="400" />
 
 **Passenger Credentials**
 
 The same way as the past section, here the passanger has to enter his account address and private key to firm contracts and make transactions. For the passenger is also used the wallet with Metamask. Once the fields are filled, the passenger has to login with the button "Passenger login!".
 
-<img src="4.PNG" data-canonical-src="4.PNG" width="400" />
+<img src="img/4.PNG" data-canonical-src="img/4.PNG" width="400" />
 
 **Send Ride offer**
 
 As a driver, you will want to create ride offers, so the section of "Send Ride Offer" has to be fulfilled. First you have to stablish the minimum price of the ride by just typing the amount. Then, select how many seats do you have to offer for the ride in the "Seats" section. The location is very imporant, because the people will look up for a ride that suits them the best, so you have to select the destination of your ride. Also is important for users to define the date and time that you will start your ride. And finally estimate how long is the ride going to last. This will help the application to limitate the rider to only have one ride at a time. Then publish the offer with the button below.
 
-<img src="5.PNG" data-canonical-src="5.PNG" width="400" />
+<img src="img/5.PNG" data-canonical-src="img/5.PNG" width="400" />
 
 **Request ride offer**
 
 As a passenger, you can search for rides that fits you the best with the filters of Location, Month and Day by just searching there. For location and month there is a combo box where the passenger can filter the rides and for the day you have to type it, and just filter the ride offers with the button below. According to the filters, the offers found can be seen as a list in the combo box of "Offers", where the passenger can select the one he/she wants. And then the only field missing would be the "Bid" field, where the passenger will offer money to take the ride. For request your ride you have to select everything and publish your offer with the button.
 
-<img src="6.PNG" data-canonical-src="6.PNG" width="400" />
+<img src="img/6.PNG" data-canonical-src="img/6.PNG" width="400" />
 
 **My future travels**
 
 For passenger convenience, a functionality was added where you can check your future trips, which have already been signed by the passenger. They are displayed in a combo box and to refresh the trips tab, just press the button "Refresh travels!"
 
-<img src="7.PNG" data-canonical-src="7.PNG" width="400" />
+<img src="img/7.PNG" data-canonical-src="img/7.PNG" width="400" />
 
 **Display**
 
 The display, located at the bottom of the GUI, is used for showing messages to the user to have a better understanding of what is happenning in the program, to confirm that a ride offer was correctly published, a bid was correctly done or even just for showing that the passenger or driver have logged in correctly.
 
-<img src="8.PNG" data-canonical-src="8.PNG" width="400" />
+<img src="img/8.PNG" data-canonical-src="img/8.PNG" width="400" />
 
 ## 5. Important features:
 **UML of the project**
@@ -103,7 +103,7 @@ The display, located at the bottom of the GUI, is used for showing messages to t
 
 **Duplicate reservations avoidance**
 
-<img src="10.jpg" data-canonical-src="10.jpg" width="400" />
+<img src="img/10.jpg" data-canonical-src="img/10.jpg" width="400" />
 
 
 	t1_start=datetime.strptime(dateAndLocation[0].replace('. ', '').replace('.', ''), '%d/%m/%Y %I:%M %p')#Start time of ride from contract#
@@ -116,7 +116,7 @@ The display, located at the bottom of the GUI, is used for showing messages to t
 
 **Contract expiring**
 
-<img src="11.jpg" data-canonical-src="11.jpg" width="400" />
+<img src="img/11.jpg" data-canonical-src="img/11.jpg" width="400" />
 
 	function auctionEnd()public {
         if (block.timestamp < auctionEndTime){
@@ -139,7 +139,7 @@ The display, located at the bottom of the GUI, is used for showing messages to t
     }
 **Sufficient funds checking**
 
-<img src="12.jpg" data-canonical-src="12.jpg" width="400" />
+<img src="img/12.jpg" data-canonical-src="img/12.jpg" width="400" />
 
     function bid (uint _account_balance, address _bidder, uint _amount) public{
         if (block.timestamp > auctionEndTime){
@@ -163,7 +163,7 @@ The display, located at the bottom of the GUI, is used for showing messages to t
     }
 **Metamask**
 
-<img src="13.jpg" data-canonical-src="13.jpg" width="400" />
+<img src="img/13.jpg" data-canonical-src="img/13.jpg" width="400" />
 
 ## 4. The presentation
 
