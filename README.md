@@ -43,7 +43,7 @@ You might encounter some issues during the installation of the web3 library, if 
 [**Ganache:**](https://pypi.org/project/py-solc-x/)
 
 
-<img src="img/14.JPG" data-canonical-src="img/14.JPG" />
+<img src="img/ganache.JPG" data-canonical-src="img/ganache.JPG" />
 
 
 
@@ -94,16 +94,16 @@ For passenger convenience, a functionality was added where you can check your fu
 
 The display, located at the bottom of the GUI, is used for showing messages to the user to have a better understanding of what is happenning in the program, to confirm that a ride offer was correctly published, a bid was correctly done or even just for showing that the passenger or driver have logged in correctly.
 
-<img src="img/8.PNG" data-canonical-src="img/8.PNG" width="400" />
+<img src="img/display.PNG" data-canonical-src="img/display.PNG" width="400" />
 
 ## 5. Important features:
 **UML of the project**
 
-<img src="9.png" data-canonical-src="9.png" width="400" />
+<img src="UML.png" data-canonical-src="UML.png" width="400" />
 
 **Duplicate reservations avoidance**
 
-<img src="img/10.jpg" data-canonical-src="img/10.jpg" width="400" />
+<img src="img/duplicateContract.jpg" data-canonical-src="img/duplicateContract.jpg" width="400" />
 
 
 	t1_start=datetime.strptime(dateAndLocation[0].replace('. ', '').replace('.', ''), '%d/%m/%Y %I:%M %p')#Start time of ride from contract#
@@ -114,9 +114,9 @@ The display, located at the bottom of the GUI, is used for showing messages to t
 		overlapping=True
 		pass    
 
-**Contract expiring**
+**Contract expiration**
 
-<img src="img/11.jpg" data-canonical-src="img/11.jpg" width="400" />
+<img src="img/contractExpirations.jpg" data-canonical-src="img/contractExpirations.jpg" width="400" />
 
 	function auctionEnd()public {
         if (block.timestamp < auctionEndTime){
@@ -139,7 +139,7 @@ The display, located at the bottom of the GUI, is used for showing messages to t
     }
 **Sufficient funds checking**
 
-<img src="img/12.jpg" data-canonical-src="img/12.jpg" width="400" />
+<img src="img/funds.jpg" data-canonical-src="img/funds.jpg" width="400" />
 
     function bid (uint _account_balance, address _bidder, uint _amount) public{
         if (block.timestamp > auctionEndTime){
@@ -163,7 +163,7 @@ The display, located at the bottom of the GUI, is used for showing messages to t
     }
 **Metamask**
 
-<img src="img/13.jpg" data-canonical-src="img/13.jpg" width="400" />
+<img src="img/metaMask.jpg" data-canonical-src="img/metaMask.jpg" width="400" />
 
 ## 4. The presentation
 
