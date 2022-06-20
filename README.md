@@ -116,7 +116,7 @@ The display, located at the bottom of the GUI, is used for showing messages to t
 
 **Contract expiration**
 
-<img src="img/contractExpirations.jpg" data-canonical-src="img/contractExpirations.jpg" width="400" />
+<img src="img/contractExpiration.jpg" data-canonical-src="img/contractExpiration.jpg" width="400" />
 
 	function auctionEnd()public {
         if (block.timestamp < auctionEndTime){
@@ -163,7 +163,7 @@ The display, located at the bottom of the GUI, is used for showing messages to t
     }
 **Metamask**
 
-<img src="img/metaMask.jpg" data-canonical-src="img/metaMask.jpg" width="400" />
+<img src="img/metMask.jpg" data-canonical-src="img/metMask.jpg" width="400" />
 
 ## 4. The presentation
 
