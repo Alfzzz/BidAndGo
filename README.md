@@ -99,7 +99,7 @@ The display, located at the bottom of the GUI, is used for showing messages to t
 ## 5. Important features:
 **UML of the project**
 
-<img src="UML.png" data-canonical-src="UML.png" width="400" />
+<img src="img/UML.png" data-canonical-src="img/UML.png" width="400" />
 
 **Duplicate reservations avoidance**
 
