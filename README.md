@@ -1,6 +1,6 @@
 # Bid and Go
 
-![GitHub last commit](https://img.shields.io/github/last-commit/langheran/GITMA2022) [![Repo Size](https://img.shields.io/github/repo-size/langheran/gitma2022.svg)](https://github.com/langheran/GITMA2022/README.md)
+![GitHub last commit](https://img.shields.io/github/last-commit/Alfzzz/BidAndGo) [![Repo Size](https://img.shields.io/github/repo-size/Alfzzz/BidAndGo.svg)](https://github.com/Alfzzz/BidAndGo/README.md)
 -----------------
 
 ## Authors(Code Breakers)
